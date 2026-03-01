@@ -1,7 +1,8 @@
+
+![Wiring Diagram GP14 GP15](images/PI_pico_Pinmap.png)
 # บทที่ 11 การใช้งาน Digital I/O ด้วย Raspberry Pi Pico
 
 บทนี้เป็นการเริ่มต้นใช้งานขา GPIO ของ Raspberry Pi Pico  
-เหมาะสำหรับนักเรียนระดับ ปวช เพื่อเรียนรู้การควบคุมอุปกรณ์พื้นฐาน  
 โดยใช้ **Digital Input / Digital Output**
 
 ---
@@ -66,6 +67,10 @@ while True:
 - สาย Jumper
 
 ### การต่อวงจร
+
+## แผนผังการต่อสาย (Diagram)
+
+![Wiring Diagram GP14 GP15](images/ch11_button.png)
 - ขาหนึ่งของปุ่ม → GPIO14
 - อีกขาหนึ่งของปุ่ม → GND
 
@@ -94,7 +99,11 @@ while True:
 ---
 
 ## 11.4 ตัวอย่าง Button ควบคุม LED
+### การต่อวงจร
 
+## แผนผังการต่อสาย (Diagram)
+
+![Wiring Diagram GP14 GP15](images/ch11_button_LED.png)
 ### โปรแกรม
 
 ```python
